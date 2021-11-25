@@ -7,11 +7,11 @@
 
 
       <div class="table-responsive col-lg-8">
-        <a href="/dashboard/posts/create"></a>
+        <a href="/dashboard/posts/create" class="btn btn-primary mb-3">Create new Post</a>
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th scope="col">hannan</th>
+              <th scope="col"></th>
               <th scope="col">Title</th>
               <th scope="col">Category</th>
               <th scope="col">Action</th>
