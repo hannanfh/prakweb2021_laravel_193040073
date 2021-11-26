@@ -16,7 +16,7 @@
       @enderror
     </div>
   </div>
-  <div class="mb-3">
+  <div class="mb-3 col-lg-8">
     <label for="slug" class="form-label">Slug</label>
     <input type="text" class="form-control @error('slug') is-invalid @enderror" id="slug" name="slug" required value="{{ old('slug') }}">
     @error('slug')
@@ -24,7 +24,7 @@
       {{ $message }}
       @enderror
   </div>
-  <div class="mb-3">
+  <div class="mb-3 col-lg-8">
     <label for="category" class="form-label">Category</label>
     <select class="form-select" name="category_id">
       @foreach ($categories as $category)
@@ -37,7 +37,7 @@
     </select>
   </div>
 
-  <div class="mb-3">
+  <div class="mb-3 col-lg-8">
     <label for="body" class="form-label">Body</label>
     @error('body')
      <p class="text-danger">{{ $message }}</p>   
