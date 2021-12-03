@@ -16,7 +16,7 @@
 
 
 
-    <title>WPU Blog! | {{ $title }}</title>
+    <title>WPU Blog! | HOME </title>
   </head>
   <body>
 
