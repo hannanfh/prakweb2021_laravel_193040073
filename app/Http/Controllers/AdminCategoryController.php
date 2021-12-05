@@ -14,7 +14,6 @@ class AdminCategoryController extends Controller
      */
     public function index()
     {
-
         return view('dashboard.categories.index', [
             'categories' => Category::all()
         ]);
@@ -44,10 +43,10 @@ class AdminCategoryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)
+    public function show(category $category)
     {
         //
     }
@@ -55,10 +54,10 @@ class AdminCategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit(Category $category)
+    public function edit(category $category)
     {
         //
     }
@@ -67,10 +66,10 @@ class AdminCategoryController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request, category $category)
     {
         //
     }
@@ -78,10 +77,10 @@ class AdminCategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
+    public function destroy(category $category)
     {
         //
     }
